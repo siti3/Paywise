@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
-    <table name="sales_order" engine="innodb" comment="Sales orders">
-        <!-- The standard auto-incrementing id of the table. -->
-        <column xsi:type="text" name="paywise_tracking_id" comment="Paywise Tracking Id"/>
-    </table>
-</schema>
