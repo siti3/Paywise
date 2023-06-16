@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Store/etc/config.xsd">
+    <default>
+        <payment>
+            <paywisepayment>
+                <model>Paywise\Payment\Model\PaymentMethod</model>
+                <active>1</active>
+                <title>Paywise</title>
+                <order_status>pending</order_status>
+            </paywisepayment>
+        </payment>
+    </default>
+</config>
